@@ -7,14 +7,14 @@ FROM bellsoft/liberica-openjdk-alpine:17
 COPY . .
 
 # Gradle Wrapper에 실행 권한 부여
-RUN chmod +x ./gradlew
+RUN #chmod +x ./gradlew
 
-RUN ./gradlew clean build
+RUN #./gradlew clean build
 #CMD ["./gradlew", "clean", "build"]
 # or Maven
 # CMD ["./mvnw", "clean", "package"]
 
-ARG JAR_FILE=./build/libs/*.jar
+ARG JAR_FILE=build/libs/*.jar
 # or Maven
 # ARG JAR_FILE_PATH=target/*.jar
 
