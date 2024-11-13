@@ -3,6 +3,9 @@ FROM bellsoft/liberica-openjdk-alpine:17
 # FROM openjdk:8-jdk-alpine
 # FROM openjdk:11-jdk-alpine
 
+# 애플리케이션의 모든 파일 복사
+COPY . .
+
 # Gradle Wrapper에 실행 권한 부여
 RUN chmod +x ./gradlew
 
