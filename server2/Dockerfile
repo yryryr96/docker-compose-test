@@ -14,7 +14,7 @@ RUN ./gradlew clean build
 # or Maven
 # CMD ["./mvnw", "clean", "package"]
 
-ARG JAR_FILE=build/libs/*.jar
+ARG JAR_FILE=./build/libs/*.jar
 # or Maven
 # ARG JAR_FILE_PATH=target/*.jar
 
