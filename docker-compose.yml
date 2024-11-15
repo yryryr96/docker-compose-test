@@ -1,5 +1,17 @@
 version: "3.9"
 services:
+
+  web:
+    image: nginx
+    restart: always
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - .nginx/default.conf:/etc/nginx/conf.d/default.conf
+    #   - /home/ubuntu/frontend:/usr/share/nginx/html
+    #   - /home/ubuntu/images:/usr/share/nginx/html/img
+
   server1:
     build:
       context: ./server1
