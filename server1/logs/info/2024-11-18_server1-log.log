@@ -1,0 +1,81 @@
+2024-11-18 21:00:39.563 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 17096 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\server1)
+2024-11-18 21:00:39.565 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - No active profile set, falling back to 1 default profile: "default"
+2024-11-18 21:00:40.536 [INFO] [Test worker] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2024-11-18 21:00:40.536 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2024-11-18 21:00:40.538 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 1 ms
+2024-11-18 21:00:40.564 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 1.52 seconds (process running for 2.803)
+2024-11-18 21:01:42.443 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 4216 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\server1)
+2024-11-18 21:01:42.445 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - No active profile set, falling back to 1 default profile: "default"
+2024-11-18 21:01:43.477 [INFO] [Test worker] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2024-11-18 21:01:43.478 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2024-11-18 21:01:43.479 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 1 ms
+2024-11-18 21:01:43.513 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 1.58 seconds (process running for 2.903)
+2024-11-18 21:02:22.433 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 13304 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\server1)
+2024-11-18 21:02:22.434 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - No active profile set, falling back to 1 default profile: "default"
+2024-11-18 21:02:23.342 [INFO] [Test worker] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2024-11-18 21:02:23.343 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2024-11-18 21:02:23.344 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 1 ms
+2024-11-18 21:02:23.380 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 1.437 seconds (process running for 2.708)
+2024-11-18 21:03:41.322 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 6208 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\server1)
+2024-11-18 21:03:41.323 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - No active profile set, falling back to 1 default profile: "default"
+2024-11-18 21:03:42.207 [INFO] [Test worker] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2024-11-18 21:03:42.208 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2024-11-18 21:03:42.209 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 1 ms
+2024-11-18 21:03:42.239 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 1.439 seconds (process running for 2.747)
+2024-11-18 21:04:29.507 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 15524 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\server1)
+2024-11-18 21:04:29.508 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - No active profile set, falling back to 1 default profile: "default"
+2024-11-18 21:04:30.765 [INFO] [Test worker] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2024-11-18 21:04:30.766 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2024-11-18 21:04:30.767 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 1 ms
+2024-11-18 21:04:30.798 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 1.701 seconds (process running for 3.018)
+2024-11-18 21:05:39.092 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 15476 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\server1)
+2024-11-18 21:05:39.093 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - No active profile set, falling back to 1 default profile: "default"
+2024-11-18 21:05:40.462 [INFO] [Test worker] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2024-11-18 21:05:40.463 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2024-11-18 21:05:40.464 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 1 ms
+2024-11-18 21:05:40.496 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 1.809 seconds (process running for 3.107)
+2024-11-18 21:05:52.360 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 17680 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\server1)
+2024-11-18 21:05:52.361 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - No active profile set, falling back to 1 default profile: "default"
+2024-11-18 21:05:53.602 [INFO] [Test worker] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2024-11-18 21:05:53.602 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2024-11-18 21:05:53.603 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 1 ms
+2024-11-18 21:05:53.633 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 1.69 seconds (process running for 2.992)
+2024-11-18 21:06:06.638 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 11888 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\server1)
+2024-11-18 21:06:06.639 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - No active profile set, falling back to 1 default profile: "default"
+2024-11-18 21:06:07.919 [INFO] [Test worker] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2024-11-18 21:06:07.920 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2024-11-18 21:06:07.921 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 1 ms
+2024-11-18 21:06:07.951 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 1.716 seconds (process running for 2.994)
+2024-11-18 21:59:16.543 [INFO] [Test worker] [c.example.demo.DemoApplicationTests] - Starting DemoApplicationTests using Java 17.0.9 with PID 16924 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\server1)
+2024-11-18 21:59:16.544 [INFO] [Test worker] [c.example.demo.DemoApplicationTests] - No active profile set, falling back to 1 default profile: "default"
+2024-11-18 21:59:17.804 [INFO] [Test worker] [c.example.demo.DemoApplicationTests] - Started DemoApplicationTests in 1.642 seconds (process running for 2.883)
+2024-11-18 21:59:18.654 [INFO] [Test worker] [o.s.t.c.s.AnnotationConfigContextLoaderUtils] - Could not detect default configuration classes for test class [com.example.demo.controller.HealthControllerTest]: HealthControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-18 21:59:18.673 [INFO] [Test worker] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.controller.HealthControllerTest
+2024-11-18 21:59:18.706 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 16924 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\server1)
+2024-11-18 21:59:18.706 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - No active profile set, falling back to 1 default profile: "default"
+2024-11-18 21:59:18.965 [INFO] [Test worker] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2024-11-18 21:59:18.965 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2024-11-18 21:59:18.966 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 0 ms
+2024-11-18 21:59:18.973 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 0.295 seconds (process running for 4.053)
+2024-11-18 21:59:53.936 [INFO] [Test worker] [c.example.demo.DemoApplicationTests] - Starting DemoApplicationTests using Java 17.0.9 with PID 2308 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\server1)
+2024-11-18 21:59:53.937 [INFO] [Test worker] [c.example.demo.DemoApplicationTests] - No active profile set, falling back to 1 default profile: "default"
+2024-11-18 21:59:55.124 [INFO] [Test worker] [c.example.demo.DemoApplicationTests] - Started DemoApplicationTests in 1.567 seconds (process running for 2.818)
+2024-11-18 21:59:55.983 [INFO] [Test worker] [o.s.t.c.s.AnnotationConfigContextLoaderUtils] - Could not detect default configuration classes for test class [com.example.demo.controller.HealthControllerTest]: HealthControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-18 21:59:55.998 [INFO] [Test worker] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.controller.HealthControllerTest
+2024-11-18 21:59:56.032 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 2308 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\server1)
+2024-11-18 21:59:56.032 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - No active profile set, falling back to 1 default profile: "default"
+2024-11-18 21:59:56.299 [INFO] [Test worker] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2024-11-18 21:59:56.299 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2024-11-18 21:59:56.300 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 0 ms
+2024-11-18 21:59:56.307 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 0.304 seconds (process running for 4.001)
+2024-11-18 22:16:46.645 [INFO] [Test worker] [c.example.demo.DemoApplicationTests] - Starting DemoApplicationTests using Java 17.0.9 with PID 3556 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\server1)
+2024-11-18 22:16:46.646 [INFO] [Test worker] [c.example.demo.DemoApplicationTests] - No active profile set, falling back to 1 default profile: "default"
+2024-11-18 22:16:47.838 [INFO] [Test worker] [c.example.demo.DemoApplicationTests] - Started DemoApplicationTests in 1.58 seconds (process running for 2.851)
+2024-11-18 22:16:48.682 [INFO] [Test worker] [o.s.t.c.s.AnnotationConfigContextLoaderUtils] - Could not detect default configuration classes for test class [com.example.demo.controller.HealthControllerTest]: HealthControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-18 22:16:48.698 [INFO] [Test worker] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.controller.HealthControllerTest
+2024-11-18 22:16:48.732 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 3556 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\server1)
+2024-11-18 22:16:48.732 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - No active profile set, falling back to 1 default profile: "default"
+2024-11-18 22:16:49.004 [INFO] [Test worker] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2024-11-18 22:16:49.004 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2024-11-18 22:16:49.005 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 1 ms
+2024-11-18 22:16:49.011 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 0.308 seconds (process running for 4.025)

@@ -1,9 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.demo.DemoApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-11-13T19:03:27" hostname="DESKTOP-7RV3U1L" time="1.002">
+<testsuite name="com.example.demo.DemoApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-11-18T13:16:47" hostname="DESKTOP-7RV3U1L" time="0.819">
   <properties/>
-  <testcase name="contextLoads()" classname="com.example.demo.DemoApplicationTests" time="1.002"/>
-  <system-out><![CDATA[04:03:24.861 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-04:03:25.075 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+  <testcase name="contextLoads()" classname="com.example.demo.DemoApplicationTests" time="0.819"/>
+  <system-out><![CDATA[22:16:45.922 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:16:46.048 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.DemoApplicationTests
+22:16:45,801 |-INFO in ch.qos.logback.classic.LoggerContext[default] - This is logback-classic version 1.4.14
+22:16:45,803 |-INFO in ch.qos.logback.classic.util.ContextInitializer@35088e87 - Here is a list of configurators discovered as a service, by rank: 
+22:16:45,804 |-INFO in ch.qos.logback.classic.util.ContextInitializer@35088e87 -   org.springframework.boot.logging.logback.RootLogLevelConfigurator
+22:16:45,804 |-INFO in ch.qos.logback.classic.util.ContextInitializer@35088e87 - They will be invoked in order until ExecutionStatus.DO_NOT_INVOKE_NEXT_IF_ANY is returned.
+22:16:45,804 |-INFO in ch.qos.logback.classic.util.ContextInitializer@35088e87 - Constructed configurator of type class org.springframework.boot.logging.logback.RootLogLevelConfigurator
+22:16:45,810 |-INFO in ch.qos.logback.classic.util.ContextInitializer@35088e87 - org.springframework.boot.logging.logback.RootLogLevelConfigurator.configure() call lasted 0 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
+22:16:45,810 |-INFO in ch.qos.logback.classic.util.ContextInitializer@35088e87 - Trying to configure with ch.qos.logback.classic.joran.SerializedModelConfigurator
+22:16:45,810 |-INFO in ch.qos.logback.classic.util.ContextInitializer@35088e87 - Constructed configurator of type class ch.qos.logback.classic.joran.SerializedModelConfigurator
+22:16:45,812 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.scmo]
+22:16:45,812 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.scmo]
+22:16:45,812 |-INFO in ch.qos.logback.classic.util.ContextInitializer@35088e87 - ch.qos.logback.classic.joran.SerializedModelConfigurator.configure() call lasted 2 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
+22:16:45,812 |-INFO in ch.qos.logback.classic.util.ContextInitializer@35088e87 - Trying to configure with ch.qos.logback.classic.util.DefaultJoranConfigurator
+22:16:45,813 |-INFO in ch.qos.logback.classic.util.ContextInitializer@35088e87 - Constructed configurator of type class ch.qos.logback.classic.util.DefaultJoranConfigurator
+22:16:45,813 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+22:16:45,813 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.xml]
+22:16:45,813 |-INFO in ch.qos.logback.classic.util.ContextInitializer@35088e87 - ch.qos.logback.classic.util.DefaultJoranConfigurator.configure() call lasted 0 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
+22:16:45,813 |-INFO in ch.qos.logback.classic.util.ContextInitializer@35088e87 - Trying to configure with ch.qos.logback.classic.BasicConfigurator
+22:16:45,815 |-INFO in ch.qos.logback.classic.util.ContextInitializer@35088e87 - Constructed configurator of type class ch.qos.logback.classic.BasicConfigurator
+22:16:45,815 |-INFO in ch.qos.logback.classic.BasicConfigurator@486bc9a4 - Setting up default configuration.
+22:16:45,829 |-INFO in ch.qos.logback.classic.util.ContextInitializer@35088e87 - ch.qos.logback.classic.BasicConfigurator.configure() call lasted 14 milliseconds. ExecutionStatus=NEUTRAL
+22:16:46,526 |-INFO in ch.qos.logback.core.model.processor.TimestampModelHandler - Using current interpretation time, i.e. now, as time reference.
+22:16:46,526 |-INFO in ch.qos.logback.core.model.processor.TimestampModelHandler - Adding property to the context with key="ToDay" and value="2024-11-18" to the LOCAL scope
+22:16:46,528 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [CONSOLE]
+22:16:46,528 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+22:16:46,553 |-WARN in ch.qos.logback.core.ConsoleAppender[CONSOLE] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+22:16:46,553 |-WARN in ch.qos.logback.core.ConsoleAppender[CONSOLE] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+22:16:46,553 |-WARN in ch.qos.logback.core.ConsoleAppender[CONSOLE] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+22:16:46,553 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [FILE1]
+22:16:46,553 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+22:16:46,564 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@2036704540 - Archive files will be limited to [10 MB] each.
+22:16:46,567 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@2036704540 - No compression will be used
+22:16:46,568 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@2036704540 - Will use the pattern ./logs/info/%d{yyyyMMdd}_server1-log_%i.log for the active file
+22:16:46,569 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3eee3e2b - The date pattern is 'yyyyMMdd' from file name pattern './logs/info/%d{yyyyMMdd}_server1-log_%i.log'.
+22:16:46,569 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3eee3e2b - Roll-over at midnight.
+22:16:46,570 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@3eee3e2b - Setting initial period to 2024-11-18T12:59:56.307Z
+22:16:46,572 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+22:16:46,576 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE1] - Active log file name: ./logs/info/2024-11-18_server1-log.log
+22:16:46,576 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE1] - File property is set to [./logs/info/2024-11-18_server1-log.log]
+22:16:46,577 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [FILE2]
+22:16:46,577 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+22:16:46,578 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1331946439 - Archive files will be limited to [10 MB] each.
+22:16:46,578 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1331946439 - No compression will be used
+22:16:46,578 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@1331946439 - Will use the pattern ./logs/error/%d{yyyyMMdd}_server1-log_%i.log for the active file
+22:16:46,578 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@59532566 - The date pattern is 'yyyyMMdd' from file name pattern './logs/error/%d{yyyyMMdd}_server1-log_%i.log'.
+22:16:46,578 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@59532566 - Roll-over at midnight.
+22:16:46,579 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@59532566 - Setting initial period to 2024-11-18T12:00:39.463Z
+22:16:46,579 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+22:16:46,580 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE2] - Active log file name: ./logs/error/2024-11-18_server1-log.log
+22:16:46,580 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE2] - File property is set to [./logs/error/2024-11-18_server1-log.log]
+22:16:46,580 |-INFO in ch.qos.logback.classic.model.processor.RootLoggerModelHandler - Setting level of ROOT logger to INFO
+22:16:46,581 |-INFO in ch.qos.logback.classic.jul.LevelChangePropagator@dca2615 - Propagating INFO level on Logger[ROOT] onto the JUL framework
+22:16:46,581 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [FILE1] to Logger[ROOT]
+22:16:46,581 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [FILE2] to Logger[ROOT]
+22:16:46,581 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [CONSOLE] to Logger[ROOT]
+22:16:46,581 |-INFO in ch.qos.logback.core.model.processor.DefaultProcessor@421a4ee1 - End of configuration.
+22:16:46,581 |-INFO in org.springframework.boot.logging.logback.SpringBootJoranConfigurator@1237e0be - Registering current configuration as safe fallback point
+
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -13,9 +70,9 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::               (v3.2.11)
 
-2024-11-14T04:03:25.631+09:00  INFO 24736 --- [demo] [    Test worker] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests using Java 17.0.9 with PID 24736 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\server1)
-2024-11-14T04:03:25.633+09:00  INFO 24736 --- [demo] [    Test worker] com.example.demo.DemoApplicationTests    : No active profile set, falling back to 1 default profile: "default"
-2024-11-14T04:03:27.042+09:00  INFO 24736 --- [demo] [    Test worker] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 1.723 seconds (process running for 3.496)
+2024-11-18 22:16:46.645 [INFO] [Test worker] [c.example.demo.DemoApplicationTests] - Starting DemoApplicationTests using Java 17.0.9 with PID 3556 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\server1)
+2024-11-18 22:16:46.646 [INFO] [Test worker] [c.example.demo.DemoApplicationTests] - No active profile set, falling back to 1 default profile: "default"
+2024-11-18 22:16:47.838 [INFO] [Test worker] [c.example.demo.DemoApplicationTests] - Started DemoApplicationTests in 1.58 seconds (process running for 2.851)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

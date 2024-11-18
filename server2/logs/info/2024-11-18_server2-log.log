@@ -1,0 +1,3 @@
+2024-11-18 22:17:18.232 [INFO] [Test worker] [c.example.demo.DemoApplicationTests] - Starting DemoApplicationTests using Java 17.0.9 with PID 8860 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\server2)
+2024-11-18 22:17:18.233 [INFO] [Test worker] [c.example.demo.DemoApplicationTests] - No active profile set, falling back to 1 default profile: "default"
+2024-11-18 22:17:19.412 [INFO] [Test worker] [c.example.demo.DemoApplicationTests] - Started DemoApplicationTests in 1.589 seconds (process running for 2.811)

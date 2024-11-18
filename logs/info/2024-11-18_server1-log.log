@@ -1,0 +1,14 @@
+2024-11-18 20:57:39.515 [INFO] [main] [com.example.demo.DemoApplication] - Starting DemoApplication using Java 22.0.2 with PID 2644 (C:\Users\jyr49\Desktop\docekr-compose\server1\build\classes\java\main started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose)
+2024-11-18 20:57:39.517 [INFO] [main] [com.example.demo.DemoApplication] - No active profile set, falling back to 1 default profile: "default"
+2024-11-18 20:57:40.467 [INFO] [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2024-11-18 20:57:40.479 [INFO] [main] [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-18 20:57:40.483 [INFO] [main] [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2024-11-18 20:57:40.484 [INFO] [main] [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-18 20:57:40.546 [INFO] [main] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2024-11-18 20:57:40.547 [INFO] [main] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 983 ms
+2024-11-18 20:57:40.890 [INFO] [main] [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-18 20:57:40.910 [INFO] [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path ''
+2024-11-18 20:57:40.915 [INFO] [main] [com.example.demo.DemoApplication] - Started DemoApplication in 1.969 seconds (process running for 4.389)
+2024-11-18 20:58:15.265 [INFO] [http-nio-8080-exec-2] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-18 20:58:15.265 [INFO] [http-nio-8080-exec-2] [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2024-11-18 20:58:15.266 [INFO] [http-nio-8080-exec-2] [o.s.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
