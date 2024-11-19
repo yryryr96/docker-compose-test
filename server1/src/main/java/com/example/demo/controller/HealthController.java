@@ -10,6 +10,7 @@ public class HealthController {
 
     @GetMapping("/health")
     public String check() {
+        System.out.println("health");
         return "server1 is running!!!";
     }
 }
