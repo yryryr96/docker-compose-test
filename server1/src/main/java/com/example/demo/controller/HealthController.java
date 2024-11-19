@@ -9,8 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class HealthController {
 
     @GetMapping("/health")
-    public String check() {
+    public String health() {
         System.out.println("health");
         return "server1 is running!!!";
+    }
+
+    @GetMapping("/health-v")
+    public String healthVersion() {
+        return "this is green";
     }
 }
