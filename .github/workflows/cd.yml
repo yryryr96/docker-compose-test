@@ -58,5 +58,6 @@ jobs:
           key: ${{secrets.SSH_PRIVATE_KEY}}
           script: |
             cd docker-compose-test
+            docker pull ${{ secrets.DOCKER_USERNAME }}/${{ matrix.service }}:latest
             chmod +x /home/ec2-user/docker-compose-test/deploy.sh
             /home/ec2-user/docker-compose-test/deploy.sh
