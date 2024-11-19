@@ -16,6 +16,6 @@ public class HealthController {
 
     @GetMapping("/health-v")
     public String healthVersion() {
-        return "this is green";
+        return "this is version1";
     }
 }
