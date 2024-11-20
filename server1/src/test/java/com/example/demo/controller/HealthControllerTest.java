@@ -26,9 +26,6 @@ class HealthControllerTest {
     @Autowired
     Environment env;
 
-    @Autowired
-    JavaMailSender javaMailSender;
-
     @Test
     void healthControllerTest() throws Exception {
         //given
