@@ -1,0 +1,6 @@
+2024-11-20 23:08:23.215 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 1048 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-20 23:08:23.217 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - The following 1 profile is active: "local"
+2024-11-20 23:08:24.525 [INFO] [Test worker] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2024-11-20 23:08:24.525 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2024-11-20 23:08:24.527 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 2 ms
+2024-11-20 23:08:24.555 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 1.835 seconds (process running for 3.2)
