@@ -14,8 +14,8 @@ public class MailService {
 
 //    private final JavaMailSender mailSender;
 
-    @Value("${spring.mail.username}")
-    private String FROM_ADDRESS;
+//    @Value("${spring.mail.username}")
+//    private String FROM_ADDRESS;
 
     public void mailSend(MailDto mailDto) {
 //        SimpleMailMessage message = new SimpleMailMessage();
