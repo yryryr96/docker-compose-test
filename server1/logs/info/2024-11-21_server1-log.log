@@ -149,3 +149,40 @@ Error starting ApplicationContext. To display the condition evaluation report re
 2024-11-21 01:15:38.443 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
 2024-11-21 01:15:38.444 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 0 ms
 2024-11-21 01:15:38.475 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 1.922 seconds (process running for 3.448)
+2024-11-21 01:20:16.598 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 9720 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-21 01:20:16.600 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - No active profile set, falling back to 1 default profile: "default"
+2024-11-21 01:20:17.448 [INFO] [Test worker] [o.s.b.a.l.ConditionEvaluationReportLogger] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-21 01:20:40.387 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 26100 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-21 01:20:40.389 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - No active profile set, falling back to 1 default profile: "default"
+2024-11-21 01:20:41.247 [INFO] [Test worker] [o.s.b.a.l.ConditionEvaluationReportLogger] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-21 01:23:06.927 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 20444 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-21 01:23:06.929 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - No active profile set, falling back to 1 default profile: "default"
+2024-11-21 01:23:07.817 [INFO] [Test worker] [o.s.b.a.l.ConditionEvaluationReportLogger] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-21 01:25:41.876 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 5128 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-21 01:25:41.877 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - No active profile set, falling back to 1 default profile: "default"
+2024-11-21 01:25:42.710 [INFO] [Test worker] [o.s.b.a.l.ConditionEvaluationReportLogger] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-21 01:25:59.606 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 23828 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-21 01:25:59.610 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - The following 1 profile is active: "test"
+2024-11-21 01:26:00.919 [INFO] [Test worker] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2024-11-21 01:26:00.919 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2024-11-21 01:26:00.920 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 1 ms
+2024-11-21 01:26:00.948 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 1.845 seconds (process running for 3.201)
+2024-11-21 01:26:17.905 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 6212 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-21 01:26:17.907 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - No active profile set, falling back to 1 default profile: "default"
+2024-11-21 01:26:18.712 [INFO] [Test worker] [o.s.b.a.l.ConditionEvaluationReportLogger] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-21 01:36:57.555 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 19676 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-21 01:36:57.556 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - The following 1 profile is active: "test"
+2024-11-21 01:36:58.856 [INFO] [Test worker] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2024-11-21 01:36:58.857 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2024-11-21 01:36:58.858 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 1 ms
+2024-11-21 01:36:58.887 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 1.837 seconds (process running for 3.265)
