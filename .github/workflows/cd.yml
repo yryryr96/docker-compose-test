@@ -27,20 +27,20 @@ jobs:
       # application.yml 생성
       - name: Create application.yml
         run: |
-          mkdir -p ./src/main/resources
-          touch ./src/main/resources/application.yml
-          touch ./src/main/resources/application-prod.yml
-          touch ./src/main/resources/application-test.yml
-          echo "${{ secrets.APPLICATION }}" > ./src/main/resources/application.yml
-          echo "${{ secrets.APPLICATION_PROD }}" > ./src/main/resources/application-prod.yml
-          echo "${{ secrets.APPLICATION_TEST }}" > ./src/main/resources/application-test.yml
+          mkdir -p ${{ matrix.service }}/src/main/resources
+          touch ${{ matrix.service }}/src/main/resources/application.yml
+          touch ${{ matrix.service }}/src/main/resources/application-prod.yml
+          touch ${{ matrix.service }}/src/main/resources/application-test.yml
+          echo "${{ secrets.APPLICATION }}" > ${{ matrix.service }}/src/main/resources/application.yml
+          echo "${{ secrets.APPLICATION_PROD }}" > ${{ matrix.service }}/src/main/resources/application-prod.yml
+          echo "${{ secrets.APPLICATION_TEST }}" > ${{ matrix.service }}/src/main/resources/application-test.yml
 
       # yml 생성 확인
       - name: Verify application.yml creation
         run: |
-          cat ./src/main/resources/application.yml
-          cat ./src/main/resources/application-prod.yml
-          cat ./src/main/resources/application-test.yml
+          cat ${{ matrix.service }}/src/main/resources/application.yml
+          cat ${{ matrix.service }}/src/main/resources/application-prod.yml
+          cat ${{ matrix.service }}/src/main/resources/application-test.yml
       
       # Gradle Build
       - name: Build with Gradle
