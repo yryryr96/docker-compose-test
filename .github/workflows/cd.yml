@@ -29,8 +29,10 @@ jobs:
         run: |
           mkdir -p ./src/main/resources
           cd ./src/main/resources
+          touch ./application.yml
           touch ./application-prod.yml
           touch ./application-test.yml
+          echo "${{ secrets.APPLICATION }}" > ./application.yml
           echo "${{ secrets.APPLICATION_PROD }}" > ./application-prod.yml
           echo "${{ secrets.APPLICATION_TEST }}" > ./application-test.yml
       
