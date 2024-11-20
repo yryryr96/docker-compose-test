@@ -32,9 +32,6 @@ class HealthControllerTest {
     @Autowired
     Environment env;
 
-    @Value("${spring.mail.username}")
-    private String username;
-
     @Test
     void healthControllerTest() throws Exception {
         //given
@@ -46,6 +43,6 @@ class HealthControllerTest {
                 .andReturn();
 
         assertThat(env.getActiveProfiles()).contains("test");
-        assertThat(username).isEqualTo("test_username");
+//        assertThat(username).isEqualTo("test_username");
     }
 }

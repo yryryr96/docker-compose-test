@@ -105,3 +105,9 @@ Error starting ApplicationContext. To display the condition evaluation report re
 2024-11-20 23:45:15.782 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
 2024-11-20 23:45:15.783 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 1 ms
 2024-11-20 23:45:15.824 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 2.289 seconds (process running for 3.664)
+2024-11-20 23:50:06.887 [INFO] [Test worker] [c.example.demo.DemoApplicationTests] - Starting DemoApplicationTests using Java 17.0.9 with PID 1840 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-20 23:50:06.889 [INFO] [Test worker] [c.example.demo.DemoApplicationTests] - The following 1 profile is active: "local"
+2024-11-20 23:50:08.273 [INFO] [Test worker] [c.example.demo.DemoApplicationTests] - Started DemoApplicationTests in 1.856 seconds (process running for 3.192)
+2024-11-20 23:59:57.311 [INFO] [Test worker] [c.example.demo.DemoApplicationTests] - Starting DemoApplicationTests using Java 17.0.9 with PID 19136 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-20 23:59:57.312 [INFO] [Test worker] [c.example.demo.DemoApplicationTests] - The following 1 profile is active: "local"
+2024-11-20 23:59:58.976 [INFO] [Test worker] [c.example.demo.DemoApplicationTests] - Started DemoApplicationTests in 2.156 seconds (process running for 3.514)
