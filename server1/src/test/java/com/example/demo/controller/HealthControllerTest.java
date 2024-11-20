@@ -29,6 +29,10 @@ class HealthControllerTest {
     @Test
     void healthControllerTest() throws Exception {
         //given
+        String[] profiles = env.getActiveProfiles();
+        for (String profile : profiles) {
+            System.out.println("profile = " + profile);
+        }
         //when
         ResultActions result = mockMvc.perform(get("/health"));
         //then
