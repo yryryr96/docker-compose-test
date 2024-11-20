@@ -16,12 +16,13 @@ public class HealthController {
     @GetMapping("/health")
     public String health() {
 
+        StringBuilder sb = new StringBuilder();
         String[] profiles = env.getActiveProfiles();
         for (String profile : profiles) {
-            System.out.println("profile = " + profile);
+            sb.append(profile).append("\n");
         }
 
-        return "server1 is running!!!";
+        return sb.toString();
     }
 
     @GetMapping("/health-v")
