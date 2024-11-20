@@ -23,7 +23,14 @@ jobs:
         with:
           java-version: '17'
           distribution: 'adopt'
-          
+
+      # application.yml 생성
+      - name: Create Application.yml
+        run: |
+          mkdir -p ./src/main/resources
+          cd ./src/main/resources
+          touch ./application-prod.yml
+          echo "${{ secrets.APPLICATION_PROD }}" > ./application-prod.yml
 
       # Gradle Build
       - name: Build with Gradle
