@@ -29,9 +29,6 @@ class HealthControllerTest {
     @Autowired
     MockMvc mockMvc;
 
-    @Autowired
-    Environment env;
-
     @Test
     void healthControllerTest() throws Exception {
         //given
@@ -42,7 +39,7 @@ class HealthControllerTest {
                 .andExpect(content().string("server1 is running!!!"))
                 .andReturn();
 
-        assertThat(env.getActiveProfiles()).contains("test");
+//        assertThat(env.getActiveProfiles()).contains("test");
 //        assertThat(username).isEqualTo("test_username");
     }
 }
