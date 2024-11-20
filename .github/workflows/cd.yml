@@ -28,13 +28,12 @@ jobs:
       - name: Create application.yml
         run: |
           mkdir -p ./src/main/resources
-          cd ./src/main/resources
-          touch ./application.yml
-          touch ./application-prod.yml
-          touch ./application-test.yml
-          echo "${{ secrets.APPLICATION }}" > ./application.yml
-          echo "${{ secrets.APPLICATION_PROD }}" > ./application-prod.yml
-          echo "${{ secrets.APPLICATION_TEST }}" > ./application-test.yml
+          touch ./src/main/resources/application.yml
+          touch ./src/main/resources/application-prod.yml
+          touch ./src/main/resources/application-test.yml
+          echo "${{ secrets.APPLICATION }}" > ./src/main/resources/application.yml
+          echo "${{ secrets.APPLICATION_PROD }}" > ./src/main/resources/application-prod.yml
+          echo "${{ secrets.APPLICATION_TEST }}" > ./src/main/resources/application-test.yml
       
       # Gradle Build
       - name: Build with Gradle
