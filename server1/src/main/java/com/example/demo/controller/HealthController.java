@@ -16,7 +16,7 @@ public class HealthController {
     @GetMapping("/health")
     public String health() {
 
-        StringBuilder sb = new StringBuilder();
+        StringBuilder sb = new StringBuilder("running");
         String[] profiles = env.getActiveProfiles();
         for (String profile : profiles) {
             sb.append(profile).append("\n");
