@@ -31,9 +31,9 @@ jobs:
           touch ./src/main/resources/application.yml
           touch ./src/main/resources/application-prod.yml
           touch ./src/main/resources/application-test.yml
-          echo "${{ secrets.APPLICATION }}" > ./src/main/resources/application.yml
-          echo "${{ secrets.APPLICATION_PROD }}" > ./src/main/resources/application-prod.yml
-          echo "${{ secrets.APPLICATION_TEST }}" > ./src/main/resources/application-test.yml
+          echo ${{ secrets.APPLICATION }} > ./src/main/resources/application.yml
+          echo ${{ secrets.APPLICATION_PROD }} > ./src/main/resources/application-prod.yml
+          echo ${{ secrets.APPLICATION_TEST }} > ./src/main/resources/application-test.yml
 
       # yml 생성 확인
       - name: Verify application.yml creation
