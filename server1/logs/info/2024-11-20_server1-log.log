@@ -4,3 +4,104 @@
 2024-11-20 23:08:24.525 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
 2024-11-20 23:08:24.527 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 2 ms
 2024-11-20 23:08:24.555 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 1.835 seconds (process running for 3.2)
+2024-11-20 23:18:45.736 [INFO] [Test worker] [c.example.demo.DemoApplicationTests] - Starting DemoApplicationTests using Java 17.0.9 with PID 19280 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-20 23:18:45.737 [INFO] [Test worker] [c.example.demo.DemoApplicationTests] - The following 1 profile is active: "local"
+2024-11-20 23:18:47.240 [INFO] [Test worker] [c.example.demo.DemoApplicationTests] - Started DemoApplicationTests in 1.974 seconds (process running for 3.354)
+2024-11-20 23:18:58.826 [INFO] [Test worker] [c.example.demo.DemoApplicationTests] - Starting DemoApplicationTests using Java 17.0.9 with PID 19020 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-20 23:18:58.827 [INFO] [Test worker] [c.example.demo.DemoApplicationTests] - No active profile set, falling back to 1 default profile: "default"
+2024-11-20 23:18:59.762 [INFO] [Test worker] [o.s.b.a.l.ConditionEvaluationReportLogger] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-20 23:20:35.913 [INFO] [Test worker] [c.example.demo.DemoApplicationTests] - Starting DemoApplicationTests using Java 17.0.9 with PID 15324 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-20 23:20:35.914 [INFO] [Test worker] [c.example.demo.DemoApplicationTests] - No active profile set, falling back to 1 default profile: "default"
+2024-11-20 23:20:36.798 [INFO] [Test worker] [o.s.b.a.l.ConditionEvaluationReportLogger] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-20 23:22:16.203 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 19676 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-20 23:22:16.205 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - The following 1 profile is active: "local"
+2024-11-20 23:22:17.618 [INFO] [Test worker] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2024-11-20 23:22:17.619 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2024-11-20 23:22:17.620 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 1 ms
+2024-11-20 23:22:17.650 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 1.985 seconds (process running for 3.408)
+2024-11-20 23:28:24.656 [INFO] [Test worker] [c.example.demo.DemoApplicationTests] - Starting DemoApplicationTests using Java 17.0.9 with PID 4896 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-20 23:28:24.658 [INFO] [Test worker] [c.example.demo.DemoApplicationTests] - No active profile set, falling back to 1 default profile: "default"
+2024-11-20 23:28:25.610 [INFO] [Test worker] [o.s.b.a.l.ConditionEvaluationReportLogger] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-20 23:28:25.688 [INFO] [Test worker] [o.s.t.c.s.AnnotationConfigContextLoaderUtils] - Could not detect default configuration classes for test class [com.example.demo.controller.HealthControllerTest]: HealthControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-20 23:28:25.711 [INFO] [Test worker] [o.s.b.t.c.SpringBootTestContextBootstrapper] - Found @SpringBootConfiguration com.example.demo.DemoApplication for test class com.example.demo.controller.HealthControllerTest
+2024-11-20 23:28:25.773 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 4896 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-20 23:28:25.774 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - No active profile set, falling back to 1 default profile: "default"
+2024-11-20 23:28:26.014 [INFO] [Test worker] [o.s.b.a.l.ConditionEvaluationReportLogger] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-20 23:29:53.069 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 12904 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-20 23:29:53.071 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - No active profile set, falling back to 1 default profile: "default"
+2024-11-20 23:29:53.993 [INFO] [Test worker] [o.s.b.a.l.ConditionEvaluationReportLogger] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-20 23:30:19.507 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 16884 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-20 23:30:19.509 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - The following 1 profile is active: "local"
+2024-11-20 23:30:20.866 [INFO] [Test worker] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2024-11-20 23:30:20.867 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2024-11-20 23:30:20.868 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 1 ms
+2024-11-20 23:30:20.897 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 1.897 seconds (process running for 3.314)
+2024-11-20 23:33:20.640 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 13544 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-20 23:33:20.642 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - The following 1 profile is active: "local"
+2024-11-20 23:33:21.916 [INFO] [Test worker] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2024-11-20 23:33:21.916 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2024-11-20 23:33:21.917 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 1 ms
+2024-11-20 23:33:21.944 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 1.806 seconds (process running for 3.174)
+2024-11-20 23:34:18.560 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 12104 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-20 23:34:18.562 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - The following 2 profiles are active: "local", "test"
+2024-11-20 23:34:19.869 [INFO] [Test worker] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2024-11-20 23:34:19.870 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2024-11-20 23:34:19.871 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 1 ms
+2024-11-20 23:34:19.899 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 1.846 seconds (process running for 3.21)
+2024-11-20 23:34:37.381 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 26556 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-20 23:34:37.382 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - The following 2 profiles are active: "local", "test"
+2024-11-20 23:34:38.722 [INFO] [Test worker] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2024-11-20 23:34:38.722 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2024-11-20 23:34:38.723 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 1 ms
+2024-11-20 23:34:38.753 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 1.911 seconds (process running for 3.271)
+2024-11-20 23:35:09.871 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 15764 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-20 23:35:09.873 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - The following 2 profiles are active: "local", "test"
+2024-11-20 23:35:11.375 [INFO] [Test worker] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2024-11-20 23:35:11.376 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2024-11-20 23:35:11.377 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 1 ms
+2024-11-20 23:35:11.413 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 2.073 seconds (process running for 3.607)
+2024-11-20 23:36:19.818 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 21048 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-20 23:36:19.821 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - The following 2 profiles are active: "local", "test"
+2024-11-20 23:36:21.163 [INFO] [Test worker] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2024-11-20 23:36:21.164 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2024-11-20 23:36:21.165 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 1 ms
+2024-11-20 23:36:21.193 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 1.913 seconds (process running for 3.318)
+2024-11-20 23:37:42.830 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 18212 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-20 23:37:42.832 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - The following 2 profiles are active: "local", "test"
+2024-11-20 23:37:44.141 [INFO] [Test worker] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2024-11-20 23:37:44.141 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2024-11-20 23:37:44.142 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 1 ms
+2024-11-20 23:37:44.173 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 1.877 seconds (process running for 3.243)
+2024-11-20 23:37:58.128 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 5364 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-20 23:37:58.129 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - The following 1 profile is active: "local"
+2024-11-20 23:37:59.457 [INFO] [Test worker] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2024-11-20 23:37:59.457 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2024-11-20 23:37:59.459 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 1 ms
+2024-11-20 23:37:59.486 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 1.865 seconds (process running for 3.266)
+2024-11-20 23:39:57.221 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 1316 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-20 23:39:57.222 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - No active profile set, falling back to 1 default profile: "default"
+2024-11-20 23:39:58.049 [INFO] [Test worker] [o.s.b.a.l.ConditionEvaluationReportLogger] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-20 23:40:08.692 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 19252 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-20 23:40:08.693 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - The following 1 profile is active: "local"
+2024-11-20 23:40:10.114 [INFO] [Test worker] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2024-11-20 23:40:10.115 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2024-11-20 23:40:10.116 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 1 ms
+2024-11-20 23:40:10.143 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 1.949 seconds (process running for 3.353)
+2024-11-20 23:45:14.045 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 22536 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-20 23:45:14.047 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - The following 2 profiles are active: "local", "test"
+2024-11-20 23:45:15.781 [INFO] [Test worker] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2024-11-20 23:45:15.782 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2024-11-20 23:45:15.783 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 1 ms
+2024-11-20 23:45:15.824 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 2.289 seconds (process running for 3.664)
