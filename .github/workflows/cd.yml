@@ -34,6 +34,13 @@ jobs:
           echo "${{ secrets.APPLICATION }}" > ./src/main/resources/application.yml
           echo "${{ secrets.APPLICATION_PROD }}" > ./src/main/resources/application-prod.yml
           echo "${{ secrets.APPLICATION_TEST }}" > ./src/main/resources/application-test.yml
+
+      # yml 생성 확인
+      - name: Verify application.yml creation
+        run: |
+          cat ./src/main/resources/application.yml
+          cat ./src/main/resources/application-prod.yml
+          cat ./src/main/resources/application-test.yml
       
       # Gradle Build
       - name: Build with Gradle
