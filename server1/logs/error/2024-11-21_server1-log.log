@@ -43,3 +43,18 @@ Action:
 
 Consider defining a bean of type 'org.springframework.mail.javamail.JavaMailSender' in your configuration.
 
+2024-11-21 00:16:12.098 [ERROR] [Test worker] [o.s.b.d.LoggingFailureAnalysisReporter] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.demo.service.MailService required a bean of type 'org.springframework.mail.javamail.JavaMailSender' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.mail.javamail.JavaMailSender' in your configuration.
+
