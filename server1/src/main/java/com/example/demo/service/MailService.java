@@ -12,18 +12,18 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class MailService {
 
-//    private final JavaMailSender mailSender;
+    private final JavaMailSender mailSender;
 
     @Value("${spring.mail.username}")
-    private final String FROM_ADDRESS;
+    private String FROM_ADDRESS;
 
     public void mailSend(MailDto mailDto) {
-//        SimpleMailMessage message = new SimpleMailMessage();
-//        message.setTo(mailDto.getAddress());
-//        message.setFrom(FROM_ADDRESS);
-//        message.setSubject(mailDto.getTitle());
-//        message.setText(mailDto.getMessage());
-//
-//        mailSender.send(message);
+        SimpleMailMessage message = new SimpleMailMessage();
+        message.setTo(mailDto.getAddress());
+        message.setFrom(FROM_ADDRESS);
+        message.setSubject(mailDto.getTitle());
+        message.setText(mailDto.getMessage());
+
+        mailSender.send(message);
     }
 }
