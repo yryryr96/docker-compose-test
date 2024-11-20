@@ -30,14 +30,8 @@ jobs:
           mkdir -p ./src/main/resources
           cd ./src/main/resources
           touch ./application-prod.yml
-          echo "${{ secrets.APPLICATION_PROD }}" > ./application-prod.yml
-
-      #application-test.yml 생성
-      - name: Create application-test.yml
-        run: |
-          mkdir -p ./src/test/resources
-          cd ./src/test/resources
           touch ./application-test.yml
+          echo "${{ secrets.APPLICATION_PROD }}" > ./application-prod.yml
           echo "${{ secrets.APPLICATION_TEST }}" > ./application-test.yml
       
       # Gradle Build
