@@ -143,3 +143,9 @@ Error starting ApplicationContext. To display the condition evaluation report re
 2024-11-21 01:05:45.467 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
 2024-11-21 01:05:45.468 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 1 ms
 2024-11-21 01:05:45.496 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 1.866 seconds (process running for 3.237)
+2024-11-21 01:15:37.083 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 5928 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-21 01:15:37.085 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - The following 1 profile is active: "local"
+2024-11-21 01:15:38.443 [INFO] [Test worker] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2024-11-21 01:15:38.443 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2024-11-21 01:15:38.444 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 0 ms
+2024-11-21 01:15:38.475 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 1.922 seconds (process running for 3.448)
