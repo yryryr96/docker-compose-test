@@ -1,12 +1,11 @@
-package com.example.demo.controller;
+package com.example.demo.mail.controller;
 
-import com.example.demo.dto.MailDto;
-import com.example.demo.service.MailService;
+import com.example.demo.mail.domain.MailDto;
+import com.example.demo.mail.service.MailService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 @Controller
 @RequiredArgsConstructor

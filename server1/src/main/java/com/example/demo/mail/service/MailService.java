@@ -1,7 +1,6 @@
-package com.example.demo.service;
+package com.example.demo.mail.service;
 
-import com.example.demo.dto.MailDto;
-import lombok.AllArgsConstructor;
+import com.example.demo.mail.domain.MailDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.mail.SimpleMailMessage;

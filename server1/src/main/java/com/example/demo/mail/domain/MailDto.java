@@ -1,4 +1,4 @@
-package com.example.demo.dto;
+package com.example.demo.mail.domain;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
