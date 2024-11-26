@@ -24,6 +24,11 @@ jobs:
           java-version: '17'
           distribution: 'adopt'
 
+      - name: Start Redis
+        uses: supercharge/redis-github-action@1.1.0
+        with:
+          redis-version: 6
+
       # application.yml 생성
       - name: Create application.yml
         run: |
