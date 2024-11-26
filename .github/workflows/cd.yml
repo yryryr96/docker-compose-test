@@ -24,6 +24,11 @@ jobs:
           java-version: '17'
           distribution: 'adopt'
 
+      - name: Start Redis
+        uses: supercharge/redis-github-action@1.1.0
+        with:
+          redis-version: 6
+
       # application.yml 생성
       - name: Create application.yml
         run: |
@@ -31,11 +36,9 @@ jobs:
           cd ./${{ matrix.service }}/src/main/resources
           touch ./application.yml
           touch ./application-prod.yml
-          touch ./application-test.yml
           echo "${{ secrets.APPLICATION }}" > ./application.yml
           echo "${{ secrets.APPLICATION_PROD }}" > ./application-prod.yml
-          echo "${{ secrets.APPLICATION_TEST }}" > ./application-test.yml
-
+          
       # Gradle Build
       - name: Build with Gradle
         run: |
