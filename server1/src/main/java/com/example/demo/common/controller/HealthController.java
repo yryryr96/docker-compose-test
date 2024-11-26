@@ -8,9 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HealthController {
 
-    @Autowired
-    Environment env;
-
     @GetMapping("/health")
     public String health() {
         return "server1 is running!!!";
