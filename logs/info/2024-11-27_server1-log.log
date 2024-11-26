@@ -1,0 +1,222 @@
+2024-11-27 01:47:38.414 [INFO] [main] [com.example.demo.DemoApplication] - Starting DemoApplication using Java 22.0.2 with PID 20376 (C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1\build\classes\java\main started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test)
+2024-11-27 01:47:38.416 [INFO] [main] [com.example.demo.DemoApplication] - The following 1 profile is active: "local"
+2024-11-27 01:47:39.187 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-27 01:47:39.188 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-27 01:47:39.210 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-11-27 01:47:39.413 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-27 01:47:39.415 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-27 01:47:39.596 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 177 ms. Found 1 JPA repository interface.
+2024-11-27 01:47:39.604 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-27 01:47:39.605 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-27 01:47:39.619 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationExtensionSupport] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.user.infrastructure.UserJpaRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-27 01:47:39.620 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2024-11-27 01:47:40.175 [INFO] [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2024-11-27 01:47:40.188 [INFO] [main] [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-27 01:47:40.192 [INFO] [main] [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2024-11-27 01:47:40.192 [INFO] [main] [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-27 01:47:40.273 [INFO] [main] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2024-11-27 01:47:40.273 [INFO] [main] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1815 ms
+2024-11-27 01:47:40.472 [INFO] [main] [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-27 01:47:40.559 [INFO] [main] [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-11-27 01:47:40.611 [INFO] [main] [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2024-11-27 01:47:40.929 [INFO] [main] [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-27 01:47:40.965 [INFO] [main] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2024-11-27 01:47:43.486 [INFO] [main] [o.a.catalina.core.StandardService] - Stopping service [Tomcat]
+2024-11-27 01:47:43.497 [INFO] [main] [o.s.b.a.l.ConditionEvaluationReportLogger] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-27 01:48:39.417 [INFO] [main] [com.example.demo.DemoApplication] - Starting DemoApplication using Java 22.0.2 with PID 19448 (C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1\build\classes\java\main started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test)
+2024-11-27 01:48:39.418 [INFO] [main] [com.example.demo.DemoApplication] - The following 1 profile is active: "local"
+2024-11-27 01:48:40.053 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-27 01:48:40.054 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-27 01:48:40.075 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-11-27 01:48:40.284 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-27 01:48:40.285 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-27 01:48:40.480 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 191 ms. Found 1 JPA repository interface.
+2024-11-27 01:48:40.493 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-27 01:48:40.494 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-27 01:48:40.514 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationExtensionSupport] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.user.infrastructure.UserJpaRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-27 01:48:40.514 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2024-11-27 01:48:41.129 [INFO] [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2024-11-27 01:48:41.141 [INFO] [main] [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-27 01:48:41.146 [INFO] [main] [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2024-11-27 01:48:41.147 [INFO] [main] [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-27 01:48:41.248 [INFO] [main] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2024-11-27 01:48:41.248 [INFO] [main] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1789 ms
+2024-11-27 01:48:41.473 [INFO] [main] [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-27 01:48:41.562 [INFO] [main] [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-11-27 01:48:41.602 [INFO] [main] [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2024-11-27 01:48:41.938 [INFO] [main] [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-27 01:48:41.974 [INFO] [main] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2024-11-27 01:48:42.088 [INFO] [main] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://localhost/~/toy user=SA
+2024-11-27 01:48:42.091 [INFO] [main] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2024-11-27 01:48:43.212 [INFO] [main] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-27 01:48:43.256 [INFO] [main] [p6spy] - #1732639723256 | took 7ms | statement | connection 1| url jdbc:h2:tcp://localhost/~/toy
+select * from INFORMATION_SCHEMA.SEQUENCES
+select * from INFORMATION_SCHEMA.SEQUENCES;
+2024-11-27 01:48:43.267 [INFO] [main] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-27 01:48:44.930 [INFO] [main] [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-27 01:48:44.948 [INFO] [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path ''
+2024-11-27 01:48:44.955 [INFO] [main] [com.example.demo.DemoApplication] - Started DemoApplication in 6.219 seconds (process running for 6.994)
+2024-11-27 01:50:05.233 [INFO] [http-nio-8080-exec-2] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-27 01:50:05.233 [INFO] [http-nio-8080-exec-2] [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2024-11-27 01:50:05.234 [INFO] [http-nio-8080-exec-2] [o.s.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
+2024-11-27 01:55:45.657 [INFO] [SpringApplicationShutdownHook] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-27 01:55:45.660 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2024-11-27 01:55:45.667 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2024-11-27 01:55:50.897 [INFO] [main] [com.example.demo.DemoApplication] - Starting DemoApplication using Java 22.0.2 with PID 15032 (C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1\build\classes\java\main started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test)
+2024-11-27 01:55:50.898 [INFO] [main] [com.example.demo.DemoApplication] - The following 1 profile is active: "local"
+2024-11-27 01:55:51.448 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-27 01:55:51.448 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-27 01:55:51.471 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-11-27 01:55:51.670 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-27 01:55:51.671 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-27 01:55:51.851 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 175 ms. Found 1 JPA repository interface.
+2024-11-27 01:55:51.859 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-27 01:55:51.859 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-27 01:55:51.877 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationExtensionSupport] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.user.infrastructure.UserJpaRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-27 01:55:51.877 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2024-11-27 01:55:52.480 [INFO] [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2024-11-27 01:55:52.492 [INFO] [main] [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-27 01:55:52.496 [INFO] [main] [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2024-11-27 01:55:52.497 [INFO] [main] [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-27 01:55:52.576 [INFO] [main] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2024-11-27 01:55:52.576 [INFO] [main] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1638 ms
+2024-11-27 01:55:52.782 [INFO] [main] [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-27 01:55:52.858 [INFO] [main] [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-11-27 01:55:52.900 [INFO] [main] [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2024-11-27 01:55:53.209 [INFO] [main] [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-27 01:55:53.244 [INFO] [main] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2024-11-27 01:55:53.327 [INFO] [main] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://localhost/~/toy user=SA
+2024-11-27 01:55:53.330 [INFO] [main] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2024-11-27 01:55:54.764 [INFO] [main] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-27 01:55:54.803 [INFO] [main] [p6spy] - #1732640154803 | took 7ms | statement | connection 1| url jdbc:h2:tcp://localhost/~/toy
+select * from INFORMATION_SCHEMA.SEQUENCES
+select * from INFORMATION_SCHEMA.SEQUENCES;
+2024-11-27 01:55:54.815 [INFO] [main] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-27 01:55:56.377 [INFO] [main] [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-27 01:55:56.387 [INFO] [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path ''
+2024-11-27 01:55:56.394 [INFO] [main] [com.example.demo.DemoApplication] - Started DemoApplication in 6.077 seconds (process running for 6.752)
+2024-11-27 01:56:21.220 [INFO] [http-nio-8080-exec-2] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-27 01:56:21.221 [INFO] [http-nio-8080-exec-2] [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2024-11-27 01:56:21.222 [INFO] [http-nio-8080-exec-2] [o.s.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
+2024-11-27 02:07:45.859 [INFO] [SpringApplicationShutdownHook] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-27 02:07:45.861 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2024-11-27 02:07:45.869 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2024-11-27 02:07:50.729 [INFO] [main] [com.example.demo.DemoApplication] - Starting DemoApplication using Java 22.0.2 with PID 14768 (C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1\build\classes\java\main started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test)
+2024-11-27 02:07:50.731 [INFO] [main] [com.example.demo.DemoApplication] - The following 1 profile is active: "local"
+2024-11-27 02:07:51.296 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-27 02:07:51.297 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-27 02:07:51.318 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-11-27 02:07:51.502 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-27 02:07:51.503 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-27 02:07:51.676 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 169 ms. Found 1 JPA repository interface.
+2024-11-27 02:07:51.683 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-27 02:07:51.684 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-27 02:07:51.696 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationExtensionSupport] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.user.infrastructure.UserJpaRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-27 02:07:51.696 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2024-11-27 02:07:52.214 [INFO] [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2024-11-27 02:07:52.225 [INFO] [main] [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-27 02:07:52.229 [INFO] [main] [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2024-11-27 02:07:52.229 [INFO] [main] [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-27 02:07:52.300 [INFO] [main] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2024-11-27 02:07:52.300 [INFO] [main] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1532 ms
+2024-11-27 02:07:52.494 [INFO] [main] [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-27 02:07:52.569 [INFO] [main] [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-11-27 02:07:52.607 [INFO] [main] [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2024-11-27 02:07:52.879 [INFO] [main] [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-27 02:07:52.914 [INFO] [main] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2024-11-27 02:07:52.991 [INFO] [main] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://localhost/~/toy user=SA
+2024-11-27 02:07:52.993 [INFO] [main] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2024-11-27 02:07:53.934 [INFO] [main] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-27 02:07:53.971 [INFO] [main] [p6spy] - #1732640873971 | took 6ms | statement | connection 1| url jdbc:h2:tcp://localhost/~/toy
+select * from INFORMATION_SCHEMA.SEQUENCES
+select * from INFORMATION_SCHEMA.SEQUENCES;
+2024-11-27 02:07:53.981 [INFO] [main] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-27 02:07:55.475 [INFO] [main] [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-27 02:07:55.486 [INFO] [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path ''
+2024-11-27 02:07:55.492 [INFO] [main] [com.example.demo.DemoApplication] - Started DemoApplication in 5.361 seconds (process running for 6.004)
+2024-11-27 02:07:59.087 [INFO] [http-nio-8080-exec-2] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-27 02:07:59.087 [INFO] [http-nio-8080-exec-2] [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2024-11-27 02:07:59.088 [INFO] [http-nio-8080-exec-2] [o.s.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
+2024-11-27 02:15:36.550 [INFO] [SpringApplicationShutdownHook] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-27 02:15:36.552 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2024-11-27 02:15:36.560 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2024-11-27 02:15:41.171 [INFO] [main] [com.example.demo.DemoApplication] - Starting DemoApplication using Java 22.0.2 with PID 20256 (C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1\build\classes\java\main started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test)
+2024-11-27 02:15:41.172 [INFO] [main] [com.example.demo.DemoApplication] - The following 1 profile is active: "local"
+2024-11-27 02:15:41.725 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-27 02:15:41.726 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-27 02:15:41.749 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-11-27 02:15:41.956 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-27 02:15:41.957 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-27 02:15:42.125 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 164 ms. Found 1 JPA repository interface.
+2024-11-27 02:15:42.132 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-27 02:15:42.132 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-27 02:15:42.145 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationExtensionSupport] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.user.infrastructure.UserJpaRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-27 02:15:42.145 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2024-11-27 02:15:42.668 [INFO] [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2024-11-27 02:15:42.680 [INFO] [main] [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-27 02:15:42.684 [INFO] [main] [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2024-11-27 02:15:42.685 [INFO] [main] [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-27 02:15:42.754 [INFO] [main] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2024-11-27 02:15:42.754 [INFO] [main] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1543 ms
+2024-11-27 02:15:42.953 [INFO] [main] [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-27 02:15:43.029 [INFO] [main] [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-11-27 02:15:43.069 [INFO] [main] [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2024-11-27 02:15:43.344 [INFO] [main] [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-27 02:15:43.378 [INFO] [main] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2024-11-27 02:15:43.456 [INFO] [main] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://localhost/~/toy user=SA
+2024-11-27 02:15:43.458 [INFO] [main] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2024-11-27 02:15:44.403 [INFO] [main] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-27 02:15:44.442 [INFO] [main] [p6spy] - #1732641344442 | took 9ms | statement | connection 1| url jdbc:h2:tcp://localhost/~/toy
+select * from INFORMATION_SCHEMA.SEQUENCES
+select * from INFORMATION_SCHEMA.SEQUENCES;
+2024-11-27 02:15:44.452 [INFO] [main] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-27 02:15:45.981 [INFO] [main] [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-27 02:15:45.993 [INFO] [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path ''
+2024-11-27 02:15:46.000 [INFO] [main] [com.example.demo.DemoApplication] - Started DemoApplication in 5.408 seconds (process running for 6.053)
+2024-11-27 02:15:48.031 [INFO] [http-nio-8080-exec-2] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-27 02:15:48.031 [INFO] [http-nio-8080-exec-2] [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2024-11-27 02:15:48.032 [INFO] [http-nio-8080-exec-2] [o.s.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
+2024-11-27 02:26:31.941 [INFO] [SpringApplicationShutdownHook] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-27 02:26:31.943 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2024-11-27 02:26:31.950 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2024-11-27 02:38:33.615 [INFO] [main] [com.example.demo.DemoApplication] - Starting DemoApplication using Java 17.0.9 with PID 5144 (C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1\build\classes\java\main started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test)
+2024-11-27 02:38:33.617 [INFO] [main] [com.example.demo.DemoApplication] - The following 1 profile is active: "local"
+2024-11-27 02:38:34.272 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-27 02:38:34.273 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-27 02:38:34.294 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-11-27 02:38:34.517 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-27 02:38:34.519 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-27 02:38:34.718 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 195 ms. Found 1 JPA repository interface.
+2024-11-27 02:38:34.730 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-27 02:38:34.730 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-27 02:38:34.749 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationExtensionSupport] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.user.infrastructure.UserJpaRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-27 02:38:34.749 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+2024-11-27 02:38:35.324 [INFO] [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2024-11-27 02:38:35.334 [INFO] [main] [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-27 02:38:35.338 [INFO] [main] [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2024-11-27 02:38:35.338 [INFO] [main] [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-27 02:38:35.425 [INFO] [main] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2024-11-27 02:38:35.425 [INFO] [main] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1744 ms
+2024-11-27 02:38:35.640 [INFO] [main] [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-27 02:38:35.715 [INFO] [main] [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-11-27 02:38:35.754 [INFO] [main] [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2024-11-27 02:38:36.064 [INFO] [main] [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-27 02:38:36.099 [INFO] [main] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2024-11-27 02:38:36.181 [INFO] [main] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://localhost/~/toy user=SA
+2024-11-27 02:38:36.183 [INFO] [main] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2024-11-27 02:38:37.134 [INFO] [main] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-27 02:38:37.169 [INFO] [main] [p6spy] - #1732642717169 | took 6ms | statement | connection 1| url jdbc:h2:tcp://localhost/~/toy
+select * from INFORMATION_SCHEMA.SEQUENCES
+select * from INFORMATION_SCHEMA.SEQUENCES;
+2024-11-27 02:38:37.179 [INFO] [main] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-27 02:38:38.774 [INFO] [main] [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-27 02:38:38.785 [INFO] [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path ''
+2024-11-27 02:38:38.795 [INFO] [main] [com.example.demo.DemoApplication] - Started DemoApplication in 6.459 seconds (process running for 7.288)
+2024-11-27 02:38:47.098 [INFO] [http-nio-8080-exec-2] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-27 02:38:47.098 [INFO] [http-nio-8080-exec-2] [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2024-11-27 02:38:47.099 [INFO] [http-nio-8080-exec-2] [o.s.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
+2024-11-27 02:39:48.767 [INFO] [SpringApplicationShutdownHook] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-27 02:39:48.769 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2024-11-27 02:39:48.775 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.

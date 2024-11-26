@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.example.demo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.example.demo.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/demo.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/demo.test.iml" filepath="$PROJECT_DIR$/.idea/modules/demo.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/docekr-compose.iml" filepath="$PROJECT_DIR$/.idea/docekr-compose.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/docker-compose-test.server1.demo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/docker-compose-test.server1.demo.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/server1.demo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/server1.demo.main.iml" />
     </modules>
   </component>

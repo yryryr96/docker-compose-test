@@ -1,0 +1,15 @@
+2024-11-22 02:12:10.737 [ERROR] [Test worker] [o.s.b.d.LoggingFailureAnalysisReporter] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in com.example.demo.user.service.CertificationService required a bean of type 'com.example.demo.common.service.port.UuidHolder' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.common.service.port.UuidHolder' in your configuration.
+

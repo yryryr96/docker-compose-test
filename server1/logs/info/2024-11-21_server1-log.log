@@ -222,3 +222,15 @@ Error starting ApplicationContext. To display the condition evaluation report re
 2024-11-21 02:25:42.645 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
 2024-11-21 02:25:42.647 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 2 ms
 2024-11-21 02:25:42.682 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 2.051 seconds (process running for 3.407)
+2024-11-21 21:11:38.420 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 3644 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-21 21:11:38.423 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - The following 1 profile is active: "test"
+2024-11-21 21:11:40.079 [INFO] [Test worker] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2024-11-21 21:11:40.080 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2024-11-21 21:11:40.081 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 1 ms
+2024-11-21 21:11:40.108 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 2.313 seconds (process running for 3.732)
+2024-11-21 21:13:25.558 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Starting HealthControllerTest using Java 17.0.9 with PID 19260 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-21 21:13:25.562 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - The following 1 profile is active: "test"
+2024-11-21 21:13:26.897 [INFO] [Test worker] [o.s.b.t.m.w.SpringBootMockServletContext] - Initializing Spring TestDispatcherServlet ''
+2024-11-21 21:13:26.898 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Initializing Servlet ''
+2024-11-21 21:13:26.898 [INFO] [Test worker] [o.s.t.w.s.TestDispatcherServlet] - Completed initialization in 0 ms
+2024-11-21 21:13:26.924 [INFO] [Test worker] [c.e.d.c.HealthControllerTest] - Started HealthControllerTest in 1.864 seconds (process running for 3.209)

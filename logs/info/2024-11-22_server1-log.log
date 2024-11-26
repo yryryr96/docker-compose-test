@@ -1,0 +1,172 @@
+2024-11-22 01:12:58.000 [INFO] [main] [com.example.demo.DemoApplication] - Starting DemoApplication using Java 22.0.2 with PID 18244 (C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1\build\classes\java\main started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test)
+2024-11-22 01:12:58.002 [INFO] [main] [com.example.demo.DemoApplication] - The following 1 profile is active: "local"
+2024-11-22 01:12:59.230 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-22 01:12:59.321 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 80 ms. Found 1 JPA repository interface.
+2024-11-22 01:13:00.103 [INFO] [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2024-11-22 01:13:00.118 [INFO] [main] [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-22 01:13:00.123 [INFO] [main] [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2024-11-22 01:13:00.124 [INFO] [main] [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-22 01:13:00.209 [INFO] [main] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2024-11-22 01:13:00.210 [INFO] [main] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 2152 ms
+2024-11-22 01:13:00.399 [INFO] [main] [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-22 01:13:00.487 [INFO] [main] [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-11-22 01:13:00.535 [INFO] [main] [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2024-11-22 01:13:00.919 [INFO] [main] [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-22 01:13:00.970 [INFO] [main] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2024-11-22 01:13:01.125 [INFO] [main] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://localhost/~/toy user=SA
+2024-11-22 01:13:01.127 [INFO] [main] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2024-11-22 01:13:02.242 [INFO] [main] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-22 01:13:02.297 [INFO] [main] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-22 01:13:02.336 [INFO] [main] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-22 01:13:02.339 [INFO] [main] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2024-11-22 01:13:02.347 [INFO] [main] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2024-11-22 01:13:02.348 [INFO] [main] [o.a.catalina.core.StandardService] - Stopping service [Tomcat]
+2024-11-22 01:13:02.358 [INFO] [main] [o.s.b.a.l.ConditionEvaluationReportLogger] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-22 01:16:25.512 [INFO] [main] [com.example.demo.DemoApplication] - Starting DemoApplication using Java 22.0.2 with PID 19544 (C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1\build\classes\java\main started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test)
+2024-11-22 01:16:25.513 [INFO] [main] [com.example.demo.DemoApplication] - The following 1 profile is active: "local"
+2024-11-22 01:16:26.246 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-22 01:16:26.315 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interface.
+2024-11-22 01:16:26.872 [INFO] [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2024-11-22 01:16:26.883 [INFO] [main] [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-22 01:16:26.887 [INFO] [main] [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2024-11-22 01:16:26.887 [INFO] [main] [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-22 01:16:26.952 [INFO] [main] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2024-11-22 01:16:26.952 [INFO] [main] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1390 ms
+2024-11-22 01:16:27.113 [INFO] [main] [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-22 01:16:27.182 [INFO] [main] [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-11-22 01:16:27.221 [INFO] [main] [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2024-11-22 01:16:27.512 [INFO] [main] [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-22 01:16:27.547 [INFO] [main] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2024-11-22 01:16:27.627 [INFO] [main] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://localhost/~/toy user=SA
+2024-11-22 01:16:27.629 [INFO] [main] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2024-11-22 01:16:28.536 [INFO] [main] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-22 01:16:28.577 [INFO] [main] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-22 01:16:28.611 [INFO] [main] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-22 01:16:28.614 [INFO] [main] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2024-11-22 01:16:28.620 [INFO] [main] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2024-11-22 01:16:28.621 [INFO] [main] [o.a.catalina.core.StandardService] - Stopping service [Tomcat]
+2024-11-22 01:16:28.630 [INFO] [main] [o.s.b.a.l.ConditionEvaluationReportLogger] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-22 01:17:59.332 [INFO] [main] [com.example.demo.DemoApplication] - Starting DemoApplication using Java 22.0.2 with PID 22236 (C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1\build\classes\java\main started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test)
+2024-11-22 01:17:59.334 [INFO] [main] [com.example.demo.DemoApplication] - The following 1 profile is active: "local"
+2024-11-22 01:18:00.010 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-22 01:18:00.075 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interface.
+2024-11-22 01:18:00.604 [INFO] [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2024-11-22 01:18:00.617 [INFO] [main] [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-22 01:18:00.622 [INFO] [main] [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2024-11-22 01:18:00.622 [INFO] [main] [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-22 01:18:00.707 [INFO] [main] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2024-11-22 01:18:00.707 [INFO] [main] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1333 ms
+2024-11-22 01:18:00.881 [INFO] [main] [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-22 01:18:00.952 [INFO] [main] [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-11-22 01:18:00.989 [INFO] [main] [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2024-11-22 01:18:01.275 [INFO] [main] [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-22 01:18:01.308 [INFO] [main] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2024-11-22 01:18:01.386 [INFO] [main] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://localhost/~/toy user=SA
+2024-11-22 01:18:01.388 [INFO] [main] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2024-11-22 01:18:02.292 [INFO] [main] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-22 01:18:02.332 [INFO] [main] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-22 01:18:02.371 [INFO] [main] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-22 01:18:02.373 [INFO] [main] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2024-11-22 01:18:02.380 [INFO] [main] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2024-11-22 01:18:02.381 [INFO] [main] [o.a.catalina.core.StandardService] - Stopping service [Tomcat]
+2024-11-22 01:18:02.391 [INFO] [main] [o.s.b.a.l.ConditionEvaluationReportLogger] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-11-22 01:25:27.690 [INFO] [main] [com.example.demo.DemoApplication] - Starting DemoApplication using Java 22.0.2 with PID 12480 (C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1\build\classes\java\main started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test)
+2024-11-22 01:25:27.691 [INFO] [main] [com.example.demo.DemoApplication] - The following 1 profile is active: "local"
+2024-11-22 01:25:28.399 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-22 01:25:28.467 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interface.
+2024-11-22 01:25:28.981 [INFO] [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2024-11-22 01:25:28.992 [INFO] [main] [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-22 01:25:28.996 [INFO] [main] [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2024-11-22 01:25:28.996 [INFO] [main] [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-22 01:25:29.061 [INFO] [main] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2024-11-22 01:25:29.062 [INFO] [main] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1332 ms
+2024-11-22 01:25:29.220 [INFO] [main] [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-22 01:25:29.288 [INFO] [main] [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-11-22 01:25:29.327 [INFO] [main] [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2024-11-22 01:25:29.615 [INFO] [main] [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-22 01:25:29.646 [INFO] [main] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2024-11-22 01:25:29.723 [INFO] [main] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://localhost/~/toy user=SA
+2024-11-22 01:25:29.724 [INFO] [main] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2024-11-22 01:25:30.634 [INFO] [main] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-22 01:25:30.685 [INFO] [main] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-22 01:25:31.538 [INFO] [main] [o.s.s.web.DefaultSecurityFilterChain] - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7d466ef9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4a561f7d, org.springframework.security.web.context.SecurityContextHolderFilter@420068a, org.springframework.security.web.header.HeaderWriterFilter@642334d6, org.springframework.security.web.csrf.CsrfFilter@7afac89a, org.springframework.security.web.authentication.logout.LogoutFilter@3c4231e5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@10b0dd3a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@73eaae1e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@601ca994, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@542c6165, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4d4337f9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1a7f2d34, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1acd2a14, org.springframework.security.web.access.ExceptionTranslationFilter@d03cdc7, org.springframework.security.web.access.intercept.AuthorizationFilter@5bb90b89]
+2024-11-22 01:25:31.575 [INFO] [main] [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-22 01:25:31.593 [INFO] [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path ''
+2024-11-22 01:25:31.599 [INFO] [main] [com.example.demo.DemoApplication] - Started DemoApplication in 4.465 seconds (process running for 5.065)
+2024-11-22 01:27:04.462 [INFO] [http-nio-8080-exec-1] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-22 01:27:04.462 [INFO] [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2024-11-22 01:27:04.463 [INFO] [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
+2024-11-22 01:28:55.210 [INFO] [SpringApplicationShutdownHook] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-22 01:28:55.212 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2024-11-22 01:28:55.219 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2024-11-22 01:29:12.005 [INFO] [main] [com.example.demo.DemoApplication] - Starting DemoApplication using Java 22.0.2 with PID 3376 (C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1\build\classes\java\main started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test)
+2024-11-22 01:29:12.006 [INFO] [main] [com.example.demo.DemoApplication] - The following 1 profile is active: "local"
+2024-11-22 01:29:12.732 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-22 01:29:12.813 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 70 ms. Found 1 JPA repository interface.
+2024-11-22 01:29:13.303 [INFO] [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2024-11-22 01:29:13.314 [INFO] [main] [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-22 01:29:13.318 [INFO] [main] [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2024-11-22 01:29:13.318 [INFO] [main] [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-22 01:29:13.381 [INFO] [main] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2024-11-22 01:29:13.382 [INFO] [main] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1337 ms
+2024-11-22 01:29:13.532 [INFO] [main] [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-22 01:29:13.598 [INFO] [main] [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-11-22 01:29:13.633 [INFO] [main] [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2024-11-22 01:29:13.924 [INFO] [main] [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-22 01:29:13.955 [INFO] [main] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2024-11-22 01:29:14.029 [INFO] [main] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://localhost/~/toy user=SA
+2024-11-22 01:29:14.031 [INFO] [main] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2024-11-22 01:29:14.923 [INFO] [main] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-22 01:29:14.962 [INFO] [main] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-22 01:29:15.612 [INFO] [main] [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-22 01:29:15.633 [INFO] [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path ''
+2024-11-22 01:29:15.639 [INFO] [main] [com.example.demo.DemoApplication] - Started DemoApplication in 4.2 seconds (process running for 4.765)
+2024-11-22 01:29:21.516 [INFO] [http-nio-8080-exec-1] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-22 01:29:21.516 [INFO] [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2024-11-22 01:29:21.517 [INFO] [http-nio-8080-exec-1] [o.s.web.servlet.DispatcherServlet] - Completed initialization in 0 ms
+2024-11-22 01:37:49.311 [INFO] [SpringApplicationShutdownHook] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-22 01:37:49.313 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2024-11-22 01:37:49.320 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2024-11-22 01:37:52.187 [INFO] [main] [com.example.demo.DemoApplication] - Starting DemoApplication using Java 22.0.2 with PID 21864 (C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1\build\classes\java\main started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test)
+2024-11-22 01:37:52.188 [INFO] [main] [com.example.demo.DemoApplication] - The following 1 profile is active: "local"
+2024-11-22 01:37:52.812 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-22 01:37:52.877 [INFO] [main] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interface.
+2024-11-22 01:37:53.363 [INFO] [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat initialized with port 8080 (http)
+2024-11-22 01:37:53.374 [INFO] [main] [o.a.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-8080"]
+2024-11-22 01:37:53.378 [INFO] [main] [o.a.catalina.core.StandardService] - Starting service [Tomcat]
+2024-11-22 01:37:53.378 [INFO] [main] [o.a.catalina.core.StandardEngine] - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-22 01:37:53.442 [INFO] [main] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2024-11-22 01:37:53.442 [INFO] [main] [o.s.b.w.s.c.ServletWebServerApplicationContext] - Root WebApplicationContext: initialization completed in 1215 ms
+2024-11-22 01:37:53.622 [INFO] [main] [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-22 01:37:53.688 [INFO] [main] [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-11-22 01:37:53.725 [INFO] [main] [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2024-11-22 01:37:54.011 [INFO] [main] [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-22 01:37:54.044 [INFO] [main] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2024-11-22 01:37:54.124 [INFO] [main] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://localhost/~/toy user=SA
+2024-11-22 01:37:54.126 [INFO] [main] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2024-11-22 01:37:55.019 [INFO] [main] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-22 01:37:55.052 [INFO] [main] [p6spy] - #1732207075052 | took 5ms | statement | connection 1| url jdbc:h2:tcp://localhost/~/toy
+select * from INFORMATION_SCHEMA.SEQUENCES
+select * from INFORMATION_SCHEMA.SEQUENCES;
+2024-11-22 01:37:55.061 [INFO] [main] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-22 01:37:55.718 [INFO] [main] [o.a.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-8080"]
+2024-11-22 01:37:55.735 [INFO] [main] [o.s.b.w.e.tomcat.TomcatWebServer] - Tomcat started on port 8080 (http) with context path ''
+2024-11-22 01:37:55.741 [INFO] [main] [com.example.demo.DemoApplication] - Started DemoApplication in 4.11 seconds (process running for 4.813)
+2024-11-22 01:38:08.091 [INFO] [http-nio-8080-exec-3] [o.a.c.c.C.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-22 01:38:08.091 [INFO] [http-nio-8080-exec-3] [o.s.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2024-11-22 01:38:08.092 [INFO] [http-nio-8080-exec-3] [o.s.web.servlet.DispatcherServlet] - Completed initialization in 1 ms
+2024-11-22 01:38:08.242 [INFO] [http-nio-8080-exec-3] [p6spy] - #1732207088242 | took 0ms | statement | connection 2| url jdbc:h2:tcp://localhost/~/toy
+insert into users (address,email,last_login_at,nickname,password,status,id) values (?,?,?,?,?,?,default)
+insert into users (address,email,last_login_at,nickname,password,status,id) values ('test3@test3.com','test3@test3.com',NULL,'nickname3','test3','PENDING',default);
+2024-11-22 01:38:08.257 [INFO] [http-nio-8080-exec-3] [p6spy] - #1732207088257 | took 0ms | commit | connection 2| url jdbc:h2:tcp://localhost/~/toy
+
+;
+2024-11-22 01:40:11.565 [INFO] [SpringApplicationShutdownHook] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-22 01:40:11.567 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2024-11-22 01:40:11.573 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.

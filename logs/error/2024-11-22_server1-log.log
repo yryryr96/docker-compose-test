@@ -1,0 +1,45 @@
+2024-11-22 01:13:02.383 [ERROR] [main] [o.s.b.d.LoggingFailureAnalysisReporter] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.demo.user.controller.UserController required a bean of type 'com.example.demo.user.controller.port.UserService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.user.controller.port.UserService' in your configuration.
+
+2024-11-22 01:16:28.654 [ERROR] [main] [o.s.b.d.LoggingFailureAnalysisReporter] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.demo.user.controller.UserController required a bean of type 'com.example.demo.user.controller.port.UserService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.user.controller.port.UserService' in your configuration.
+
+2024-11-22 01:18:02.414 [ERROR] [main] [o.s.b.d.LoggingFailureAnalysisReporter] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.example.demo.user.service.UserServiceImpl required a bean of type 'com.example.demo.user.service.port.UserRepository' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.example.demo.user.service.port.UserRepository' in your configuration.
+

@@ -1,0 +1,112 @@
+2024-11-27 03:46:32.798 [INFO] [Test worker] [c.e.d.u.s.CertificationServiceTest] - Starting CertificationServiceTest using Java 17.0.9 with PID 112 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-27 03:46:32.799 [INFO] [Test worker] [c.e.d.u.s.CertificationServiceTest] - The following 1 profile is active: "local"
+2024-11-27 03:46:33.471 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-27 03:46:33.472 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-27 03:46:33.495 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-11-27 03:46:33.725 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-27 03:46:33.727 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-27 03:46:33.921 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 189 ms. Found 1 JPA repository interface.
+2024-11-27 03:46:33.931 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-27 03:46:33.931 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-27 03:46:33.947 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationExtensionSupport] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.user.infrastructure.UserJpaRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-27 03:46:33.947 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2024-11-27 03:46:34.579 [INFO] [Test worker] [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-27 03:46:34.669 [INFO] [Test worker] [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-11-27 03:46:34.721 [INFO] [Test worker] [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2024-11-27 03:46:35.053 [INFO] [Test worker] [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-27 03:46:35.089 [INFO] [Test worker] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2024-11-27 03:46:35.174 [INFO] [Test worker] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://localhost/~/toy user=SA
+2024-11-27 03:46:35.177 [INFO] [Test worker] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2024-11-27 03:46:36.226 [INFO] [Test worker] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-27 03:46:36.266 [INFO] [Test worker] [p6spy] - #1732646796266 | took 6ms | statement | connection 1| url jdbc:h2:tcp://localhost/~/toy
+select * from INFORMATION_SCHEMA.SEQUENCES
+select * from INFORMATION_SCHEMA.SEQUENCES;
+2024-11-27 03:46:36.276 [INFO] [Test worker] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-27 03:46:38.212 [INFO] [Test worker] [c.e.d.u.s.CertificationServiceTest] - Started CertificationServiceTest in 5.929 seconds (process running for 7.398)
+2024-11-27 03:46:39.067 [INFO] [SpringApplicationShutdownHook] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-27 03:46:39.069 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2024-11-27 03:46:39.075 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2024-11-27 03:46:54.103 [INFO] [Test worker] [c.e.d.u.s.CertificationServiceTest] - Starting CertificationServiceTest using Java 17.0.9 with PID 22076 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-27 03:46:54.104 [INFO] [Test worker] [c.e.d.u.s.CertificationServiceTest] - The following 1 profile is active: "local"
+2024-11-27 03:46:54.729 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-27 03:46:54.730 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-27 03:46:54.752 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-11-27 03:46:54.973 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-27 03:46:54.974 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-27 03:46:55.179 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 199 ms. Found 1 JPA repository interface.
+2024-11-27 03:46:55.189 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-27 03:46:55.189 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-27 03:46:55.205 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationExtensionSupport] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.user.infrastructure.UserJpaRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-27 03:46:55.205 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2024-11-27 03:46:55.849 [INFO] [Test worker] [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-27 03:46:55.941 [INFO] [Test worker] [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-11-27 03:46:55.996 [INFO] [Test worker] [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2024-11-27 03:46:56.337 [INFO] [Test worker] [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-27 03:46:56.375 [INFO] [Test worker] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2024-11-27 03:46:56.462 [INFO] [Test worker] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://localhost/~/toy user=SA
+2024-11-27 03:46:56.464 [INFO] [Test worker] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2024-11-27 03:46:57.476 [INFO] [Test worker] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-27 03:46:57.513 [INFO] [Test worker] [p6spy] - #1732646817513 | took 6ms | statement | connection 1| url jdbc:h2:tcp://localhost/~/toy
+select * from INFORMATION_SCHEMA.SEQUENCES
+select * from INFORMATION_SCHEMA.SEQUENCES;
+2024-11-27 03:46:57.523 [INFO] [Test worker] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-27 03:46:59.394 [INFO] [Test worker] [c.e.d.u.s.CertificationServiceTest] - Started CertificationServiceTest in 5.807 seconds (process running for 7.259)
+2024-11-27 03:47:00.223 [INFO] [SpringApplicationShutdownHook] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-27 03:47:00.225 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2024-11-27 03:47:00.230 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2024-11-27 03:54:49.297 [INFO] [Test worker] [c.e.d.u.s.CertificationServiceTest] - Starting CertificationServiceTest using Java 17.0.9 with PID 19668 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-27 03:54:49.298 [INFO] [Test worker] [c.e.d.u.s.CertificationServiceTest] - The following 1 profile is active: "local"
+2024-11-27 03:54:49.939 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-27 03:54:49.940 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-27 03:54:49.966 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2024-11-27 03:54:50.192 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-27 03:54:50.194 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-27 03:54:50.387 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 188 ms. Found 1 JPA repository interface.
+2024-11-27 03:54:50.397 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-27 03:54:50.397 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-27 03:54:50.412 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationExtensionSupport] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.user.infrastructure.UserJpaRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-27 03:54:50.412 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2024-11-27 03:54:51.089 [INFO] [Test worker] [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-27 03:54:51.188 [INFO] [Test worker] [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-11-27 03:54:51.248 [INFO] [Test worker] [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2024-11-27 03:54:51.597 [INFO] [Test worker] [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-27 03:54:51.634 [INFO] [Test worker] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2024-11-27 03:54:51.718 [INFO] [Test worker] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://localhost/~/toy user=SA
+2024-11-27 03:54:51.720 [INFO] [Test worker] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2024-11-27 03:54:52.750 [INFO] [Test worker] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-27 03:54:52.788 [INFO] [Test worker] [p6spy] - #1732647292788 | took 6ms | statement | connection 1| url jdbc:h2:tcp://localhost/~/toy
+select * from INFORMATION_SCHEMA.SEQUENCES
+select * from INFORMATION_SCHEMA.SEQUENCES;
+2024-11-27 03:54:52.798 [INFO] [Test worker] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-27 03:54:54.684 [INFO] [Test worker] [c.e.d.u.s.CertificationServiceTest] - Started CertificationServiceTest in 5.875 seconds (process running for 7.372)
+2024-11-27 03:54:55.550 [INFO] [SpringApplicationShutdownHook] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-27 03:54:55.552 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2024-11-27 03:54:55.559 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
+2024-11-27 03:56:17.895 [INFO] [Test worker] [c.e.d.u.s.CertificationServiceTest] - Starting CertificationServiceTest using Java 17.0.9 with PID 17824 (started by jyr49 in C:\Users\jyr49\Desktop\docekr-compose\docker-compose-test\server1)
+2024-11-27 03:56:17.897 [INFO] [Test worker] [c.e.d.u.s.CertificationServiceTest] - The following 1 profile is active: "local"
+2024-11-27 03:56:18.545 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-27 03:56:18.554 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-27 03:56:18.580 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-11-27 03:56:18.803 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-27 03:56:18.805 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-27 03:56:19.000 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 190 ms. Found 1 JPA repository interface.
+2024-11-27 03:56:19.010 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-27 03:56:19.011 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-27 03:56:19.028 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationExtensionSupport] - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.user.infrastructure.UserJpaRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-27 03:56:19.028 [INFO] [Test worker] [o.s.d.r.c.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2024-11-27 03:56:19.675 [INFO] [Test worker] [o.h.jpa.internal.util.LogHelper] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-27 03:56:19.769 [INFO] [Test worker] [org.hibernate.Version] - HHH000412: Hibernate ORM core version 6.4.10.Final
+2024-11-27 03:56:19.826 [INFO] [Test worker] [o.h.c.i.RegionFactoryInitiator] - HHH000026: Second-level cache disabled
+2024-11-27 03:56:20.148 [INFO] [Test worker] [o.s.o.j.p.SpringPersistenceUnitInfo] - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-27 03:56:20.184 [INFO] [Test worker] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+2024-11-27 03:56:20.275 [INFO] [Test worker] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection conn0: url=jdbc:h2:tcp://localhost/~/toy user=SA
+2024-11-27 03:56:20.277 [INFO] [Test worker] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+2024-11-27 03:56:21.333 [INFO] [Test worker] [o.h.e.t.j.p.i.JtaPlatformInitiator] - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-27 03:56:21.374 [INFO] [Test worker] [p6spy] - #1732647381374 | took 6ms | statement | connection 1| url jdbc:h2:tcp://localhost/~/toy
+select * from INFORMATION_SCHEMA.SEQUENCES
+select * from INFORMATION_SCHEMA.SEQUENCES;
+2024-11-27 03:56:21.385 [INFO] [Test worker] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-27 03:56:23.659 [INFO] [Test worker] [c.e.d.u.s.CertificationServiceTest] - Started CertificationServiceTest in 6.394 seconds (process running for 7.861)
+2024-11-27 03:56:24.457 [INFO] [SpringApplicationShutdownHook] [o.s.o.j.LocalContainerEntityManagerFactoryBean] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-27 03:56:24.459 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown initiated...
+2024-11-27 03:56:24.465 [INFO] [SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Shutdown completed.
