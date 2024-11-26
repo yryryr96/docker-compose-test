@@ -35,7 +35,7 @@ class HealthControllerTest {
         ResultActions result = mockMvc.perform(get("/health"));
         //then
         MvcResult mvcResult = result.andExpect(status().isOk())
-                .andExpect(content().string("server1 is running!!!"))
+                .andExpect(content().string("server is running!!!"))
                 .andReturn();
 
 //        assertThat(env.getActiveProfiles()).contains("test");
